@@ -1,14 +1,14 @@
 // models/piModel.js
 export class PiModel {
-  constructor(data) {
-    this.data = data;
+  constructor (data) {
+    this.data = data
   }
 
-  getStatus() {
-    return this.data.status;
+  getStatus () {
+    return this.data.status
   }
 
-  getData() {
-    return this.data.data;
+  getData () {
+    return this.data.data
   }
 }
